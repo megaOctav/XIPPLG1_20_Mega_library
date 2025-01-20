@@ -4,11 +4,11 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class reviews extends Model
+class revs extends Model
 {
     //
     protected $fillable = [
-        'book_id',
+        'books_id',
         'user_id',
         'rating',
         'comment'
