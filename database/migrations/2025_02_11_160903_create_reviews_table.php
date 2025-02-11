@@ -16,7 +16,7 @@ return new class extends Migration
             $table->unsignedBigInteger('books_id');
             $table->unsignedBigInteger('user_id');           
             $table->integer('rating');
-            $table->string('comment');
+            $table->text('comment');
             $table->timestamps();
         });
     }
